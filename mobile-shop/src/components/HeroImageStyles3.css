@@ -1,0 +1,12 @@
+.div{
+    display: flex;
+    align-items: center;
+    justify-Content: center;
+    background-Size: cover;
+    height: 400px;
+}
+    .sp{
+        padding: 20px;
+        background: #efefef;
+        color: #000000;
+      }
