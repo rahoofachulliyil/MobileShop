@@ -4,7 +4,7 @@ import pro3 from "../assets/mac.jpg";
 const ProjectCardDta=[
     {
 imgsrc:pro1,
-url:"/phone",
+url:"/Airpods",
 title:"AIRPOD",
 text:"potrtfolio website design using react js.",
 view:"/phone"
@@ -20,7 +20,7 @@ view:"https://www.themexpert.com/blog/how-to-create-portfolio-website"
     },
     {
     imgsrc:pro3,
-    url:"/Phone",
+    url:"/Mac",
 title:"MAC",
 text:"jkcdkvdm m",
 view:"https://www.themexpert.com/blog/how-to-create-portfolio-website"

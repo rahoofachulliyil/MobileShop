@@ -2,7 +2,7 @@ export const Phonestoredata = [
     {
       id: 1,
       title: "Google Pixel - Black",
-      img: "http://www.pngall.com/wp-content/uploads/2016/03/Smartphone-Transparent.png",
+      img: "https://www.apple.com/v/iphone/home/bn/images/overview/compare/compare_iphone_14_pro__cjmfbiggqhpy_medium.jpg",
       price: 10,
       company: "GOOGLE",
       info:
@@ -14,7 +14,7 @@ export const Phonestoredata = [
     {
       id: 2,
       title: "Samsung S7",
-      img: "http://www.pngall.com/wp-content/uploads/2016/03/Smartphone-Transparent.png",
+      img: "https://www.apple.com/v/iphone/home/bn/images/overview/compare/compare_iphone_14_pro__cjmfbiggqhpy_medium.jpg",
       price: 16,
       company: "SAMSUNG",
       info:
@@ -26,7 +26,7 @@ export const Phonestoredata = [
     {
       id: 3,
       title: "HTC 10 - Black",
-      img: "http://www.pngall.com/wp-content/uploads/2016/03/Smartphone-Transparent.png",
+      img: "https://www.apple.com/v/iphone/home/bn/images/overview/compare/compare_iphone_14_pro__cjmfbiggqhpy_medium.jpg",
       price: 8,
       company: "htc",
       info:

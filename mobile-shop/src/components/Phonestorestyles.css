@@ -1,5 +1,7 @@
 .work-container1{
-    padding: 20px;
+    width: 100vw;
+    background-color: aliceblue;
+  
 }
 .project-heading1 {
     
@@ -8,16 +10,19 @@
     color: brown;
 }
 .project-container1{
-    max-width:1140px;
-    max-width: 1140px;
-    margin:auto;
+    /* max-width:1140px;
+     */
+     /* max-width:1140px;
+     max-width: 1140px; */
+     margin:auto;
     display:grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap:50px;
-    padding-bottom: 5rem;
+    padding-bottom: 10px;
+   
    
 }
-.products{
+/* .products{
     max-width:1140px;
     max-width: 1140px;
     margin:auto;
@@ -26,12 +31,12 @@
     grid-gap:50px;
     padding-bottom: 5rem;
 
-}
+} */
 .project-card1{
     background: rgb(6, 6, 6);
     padding: 1.2rem 1rem;
     position: relative;
-    /* width: 400PX;
+    /*max width: 400PX;
     height: 600px; */
     border: 0px ;
     border-radius: 50px;
@@ -44,26 +49,26 @@
     /* transition-property: all;
     transition-duration: 2s;
      */
-     transition: all .3s ;
+     transition: all 0.3s ;
 }
  .project-card1:hover {
-  box-shadow: 20px 8px 16px 0 rgba(255, 255, 255, 0.933);
+  box-shadow: 10px 8px 16px 0 rgba(62, 55, 55, 0.933);
   border-radius: 30px;
-  transform: scale(1.2);
+  transform: scale(0.7);
 }
-.project-card1 img{
+/* .project-card1 img{
     width:100%;
 
 
-}
+} */
 .project-title1{
     color:rgb(202, 35, 35);
-    padding:0.5rem 0;
+    /* padding:0.5rem 0; */
     text-align: center;
 }
 .project-title2{
     color:rgb(202, 35, 35);
-    padding:0.5rem 0;
+    /* padding:0.5rem 0; */
 }
 
 .pro-details1 p{
@@ -102,16 +107,35 @@
     
 } */
 
+
 @media screen  and (max-width:740px){
-    .products{
-        max-width: 90%;
+    .project-container1{
+        max-width: 80%;
         margin:auto;
         display:grid; 
-         grid-template-columns:1fr; 
+         grid-template-columns:auto; 
        
 
     }
+    .pro-btns1{
+        display: grid;
+        grid-template-columns:auto; 
+    }
     
 }
+/* @media screen and (max-width:326px) {
+    .work-container1{
+        width: 326px;
+    }
+        
+} */
+
+/* @media screen and (max-width:480px) {
+    .work-container1{
+        width: 480px;}
+
+} */
+
+
 
 

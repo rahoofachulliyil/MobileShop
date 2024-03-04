@@ -1,15 +1,13 @@
 import React from 'react'
 import Phonestoretdata, { Phonestoredata } from "./Phonestoredata"
 import Phonestore from "./Phonestore"
-import './Phonestorestyles.css'
+// import 'MacBook.scss'
 
 
-// const Phonestoretdata1=Phonestoretdata
-const Phonestor = () => {
-
+const MacBook = () => {
   return (
     <div className="work-container1">
-        <h1 className="project-heading1">PRODUCTS</h1>
+        <h1 className="project-heading1">MAC PRODUCTS</h1>
      
     
 
@@ -41,8 +39,7 @@ const Phonestor = () => {
         </div> 
         
    
-
   )
 }
 
- export default Phonestor
+export default MacBook

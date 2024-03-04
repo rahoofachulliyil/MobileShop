@@ -5,16 +5,34 @@ import HeroImage from '../components/HeroImage'
 import Navbar from '../components/Navbar'
 
 import Phonestor from '../components/Phonestor'
-const slideImages=Phonestoretdata
+import MacBookdetails from '../components/MacBook/MacBookdetails'
+import HeroImage1 from '../components/HeroImage1'
+const slideImages=[{
+  url: 'https://tse4.mm.bing.net/th?id=OIP.PYipJ_hSncugM2SwnZitvgHaEK&pid=Api&P=0',
+  caption: 'Slide 1'
+},
+{
+  url: 'https://tse3.mm.bing.net/th?id=OIP.XP68D2eGpP_iU3Pvz849kgHaD8&pid=Api&P=0',
+  caption: 'Slide 2'
+},
+{
+  url: 'https://tse4.mm.bing.net/th?id=OIP.GtreV90EwjIwUygIO0UX4gHaEK&pid=Api&P=0s',
+  caption: 'Slide 3'
+},
+]
 // const Phonestoretdata1=Phonestoretdata
 
 const Phone = () => {
   return (
-    <div style={{backgroundColor:"white"}}>
+    <div  style={{width:'100vw'}}>
         <Navbar/>
-        <Phonestor/>
-        <HeroImage slideImages={slideImages}/>
-        <Footer/>
+        <HeroImage1/>
+        {/* <HeroImage slideImages={slideImages}/> */}
+        {/* <MacBookdetails/> */}
+         <Phonestor/>
+      
+         <Footer/> 
+        
     </div>
   )
 }

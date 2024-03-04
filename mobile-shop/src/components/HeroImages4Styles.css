@@ -1,0 +1,62 @@
+.g {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  background-color: black;
+  grid-gap: 10px;
+  /* padding: 100px 10px 10px 10px; */
+  width: 100vw;
+  padding-bottom: 1rem;
+  /* height: 1000px; */
+}
+.g > .c2,
+.c3,
+.c4,
+.c6 {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.c2 h1,
+.c3 h1,
+.c4 h1 {
+  color: black;
+  padding: 0.3rem;
+}
+.c2 h5,
+.c3 h5,
+.c4 h5 {
+  color: black;
+  padding: 0.3rem;
+}
+.g button {
+  color: blue;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.6rem;
+}
+.g img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c1 div {
+  color: white;
+  text-align: center;
+}
+.c1 h1,
+.c1 h5 {
+  padding: 0.6rem;
+}
+/* @media screen and (max-width:480px) {
+    .g{
+        width: 480px;}
+}
+
+ */
+.c5 {
+  background-color: #fff;
+  border-color: #fff;
+}

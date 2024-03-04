@@ -1,33 +1,70 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import "./HeroImageStyles3.css";
 
+const slideProperties = {
+  duration: 5000,
+transitionDuration: 500,
+infinite: true,
+indicators: true ,
+arrows: true,
+// responsive: [
+//   {
+//     breakpoint: 1024,
+//     settings: {
+//       slidesToShow: 1,
+//       slidesToScroll: 3,
+//       infinite: true,
+//       dots: true,
+      
+//     }
+//   },
+//   {
+//     breakpoint: 600,
+//     settings: {
+//       slidesToShow: 1,
+//       slidesToScroll: 2,
+//       initialSlide: 2
+//     }
+//   },
+//   {
+//     breakpoint: 480,
+//     settings: {
+//       slidesToShow: 1,
+//       slidesToScroll: 1
+//     }
+//   }
 
+};
 const slideImages = [
   {
-    url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
-    caption: 'Slide 1'
+    url: 'https://tse1.mm.bing.net/th?id=OIP.kGmuLIMjc1TVVqyC43yAZgHaEK&pid=Api&P=0',
+    caption: 'PHONE'
   },
   {
-    url: 'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
-    caption: 'Slide 2'
+    url: 'https://tse3.mm.bing.net/th?id=OIP.XP68D2eGpP_iU3Pvz849kgHaD8&pid=Api&P=0',
+    caption: 'AIRPOD'
   },
   {
-    url: 'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
-    caption: 'Slide 3'
+    url: 'https://tse1.mm.bing.net/th?id=OIP.LprmKXEjuvk_ZcHjXxsoigHaFj&pid=Api&P=0',
+    caption: 'MAC'
   },
 ];
 
 const HeroImage3 = () => {
     return (
       <div className="slide-container">
-        <Slide>
+        <Slide className="slide" {...slideProperties}>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
-              <div  className='div' style={{  'backgroundImage': `url(${slideImage.url})` }}>
-                <span className='sp'>{slideImage.caption}</span>
-              </div>
+              <div  className='div' >
+                <img  className='di' src={slideImage.url}/>
+                <span className='sp'><h4>{slideImage.caption}</h4></span>
+                
+                </div>
+      
             </div>
           ))} 
         </Slide>

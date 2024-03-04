@@ -25,6 +25,17 @@ export const ShopContextProvider = (props) => {
     return totalAmount;
   };
 
+  const getTotalCartItems = () => {
+    let totalCartItems = 0;
+    for (const item in cartItems) {
+      if (cartItems[item] > 0) {
+        // let itemInfo = Phonestoredata.find((product) => product.id === Number(item));
+        totalCartItems += cartItems[item] ;
+      }
+    }
+    return totalCartItems;
+  };
+
   const addToCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
   };
@@ -48,6 +59,7 @@ export const ShopContextProvider = (props) => {
     removeFromCart,
     getTotalCartAmount,
     checkout,
+    getTotalCartItems
   };
 
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./HeroImageStyles2.css";
-import Intro from "../assets/a1.jpg"
+import Intro from "../assets/a6.jpg"
 import  { useState } from 'react';
 import { Link } from 'react-router-dom';
 import{BsApple} from "react-icons/bs"

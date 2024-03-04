@@ -1,0 +1,76 @@
+.login {
+    /* fallback for old browsers */
+    background:black;
+  width: 100%;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgb(252, 37, 166));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  padding:3rem;
+}
+
+/* .wrapperedrClass{
+  position: relative;
+} */
+  /* .bg-dark-text-white-my-5-mx-auto{
+    background-color: blueviolet;
+    padding-top:100px;
+  
+    width: 600px;
+    height: 500px;
+margin:auto;
+text-align:center;
+
+  }
+.text-white
+    {
+
+    float: left;
+     color: white;
+    padding-left: 150px;
+    
+  }
+ h2.fw-bold-mb-2-text-uppercase{
+    text-align: center;
+padding: 1rem;
+
+ }
+ .text-white-50-mb-5{
+    text-align: center;
+    padding: 1rem;
+
+ }
+ a.text-white-50-fw-bold{
+    text-align: center;
+    color: blue;
+ }
+ .mb-0{
+    text-align: center;
+ }
+ .mb-4-mx-5-w-100,.text-white{
+    text-align: center;
+ }
+.small-mb-3-pb-lg-2{
+    text-align:center ;
+}
+a.text-white-50{
+    text-align: center;
+    padding-top: 4rem;
+    margin: 1rem;
+    
+}
+div.form-outline.mb-4-mx-5-w-100{
+    padding: 1rem;}
+.mx-2-px-5{
+text-align: center;
+} */
+@media screen and (max-width:480px) {
+    .login{
+        width: 480px;}
+}
+/* @media screen and (max-width:1280px) {
+  .login{
+      width: 1280px;}
+} */
+

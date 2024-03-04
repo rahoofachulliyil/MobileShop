@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from "react-router-dom";
+import "./ProductStyle.css"
 // import  { useState } from 'react';
 const Productlist = (props) => {
     // const [click,setClick]=useState(false);
@@ -22,8 +23,8 @@ const Productlist = (props) => {
                 <p>{props.text}</p>
                 </div>
                 <div className="pro-btns">
-                <NavLink to={props.view} className="btn"id="b1">view</NavLink>
-                <NavLink to="url.com" className="btn" id="b2">source</NavLink>
+                <NavLink to={props.view} className="btn1"id="b1">Buy Now</NavLink>
+                <NavLink to="url.com" className="btn1" id="b2">source</NavLink>
                 </div>
             
             </div>

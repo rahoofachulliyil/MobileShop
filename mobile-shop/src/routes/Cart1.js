@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+
 import Cart from '../components/Cart/Cart'
+import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
@@ -9,6 +10,7 @@ const Cart1 = () => {
     <div>
         <Navbar/>
         <Cart />
+        <Contact/>
         <Footer/>
         
     </div>

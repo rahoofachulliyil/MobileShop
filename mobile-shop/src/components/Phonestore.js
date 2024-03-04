@@ -32,9 +32,9 @@ const Phonestore = (props) => {
 <p>{info}</p>
 </div>
  <div className="pro-btns1">
-<NavLink to={price} className="btn"id="b1">Buy Now</NavLink>
+<NavLink to='https://wa.me/916238270546' className="btn1"id="b1">Buy Now</NavLink>
 
-<button  className="btn" onClick={() => addToCart(id)}><AiOutlineShoppingCart/>{cartItemCount > 0 && <> ({cartItemCount})</>}</button>
+<button  className="btn1" onClick={() => addToCart(id)}><AiOutlineShoppingCart/>{cartItemCount > 0 && <> ({cartItemCount})</>}</button>
 </div>
 
 </div>
